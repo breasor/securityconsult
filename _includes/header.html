@@ -1,0 +1,43 @@
+<!-- Header -->
+  <div id="header-wrapper">
+    <div class="container">
+
+      <!-- Header -->
+        <header id="header">
+          <div class="inner">
+
+            <h1>  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            <nav id="nav">
+              <ul>
+
+              {% for node in site.header-links %}
+                <li><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+              {% endfor %}
+              <li>
+    													<a href="#">Dropdown</a>
+    													<ul>
+    														<li><a href="#">Lorem ipsum dolor</a></li>
+    														<li><a href="#">Magna phasellus</a></li>
+    														<li>
+    															<a href="#">Phasellus consequat</a>
+    															<ul>
+    																<li><a href="#">Lorem ipsum dolor</a></li>
+    																<li><a href="#">Phasellus consequat</a></li>
+    																<li><a href="#">Magna phasellus</a></li>
+    																<li><a href="#">Etiam dolore nisl</a></li>
+    															</ul>
+    														</li>
+    														<li><a href="#">Veroeros feugiat</a></li>
+    													</ul>
+    												</li>
+
+                <li><a href="#" class="button special">Sign Up</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        {% if page.layout == 'default' %}
+          {% include banner.html %}
+        {% endif %}
+      </div>
+    </div>

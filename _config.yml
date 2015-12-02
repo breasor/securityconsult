@@ -1,0 +1,93 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Your awesome title
+description: >
+  "A responsive HTML5 site template. Manufactured by HTML5 UP. Jekylled by @breasor"
+about: > # this means to ignore newlines until "baseurl:"
+  <h2><strong>ZeroFour</strong> by HTML5 UP</h2>
+  <p>Hi! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site template by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
+  It's <a href="http://html5up.net/license/">Creative Commons Attribution</a> licensed so use it for any personal or commercial project (just credit us for the design!).</p>
+  <a href="#" class="button alt icon fa-arrow-circle-right">Learn More</a>
+baseurl: "/zerofour-jeylled" # the subpath of your site, e.g. /blog
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+header-links:
+  - title: Home
+    url: /
+  - title: Left sidebar
+    url: /left-sidebar
+  - title: Right Sidebar
+    url: /right-sidebar
+  - title: No Sidebar
+    url: /no-sidebar
+dropdown:
+  - title: Lorem ipsum dolor
+    url: \#
+  - title: Magna phasellus
+    url: \#
+  - title: Veroeros feugiat
+    url: \#
+
+contact:
+  twitter: untitled-corp
+  facebook: untitled-corp
+  www: untitled-corp.tld
+  email: user@untitled-corp.tld
+  address:
+    street1: 1234 Fictional Rd
+    street2:
+    city: Nashville
+    state: TN
+    zip: 00000-0000
+  phone: (000) 000-0000
+
+filler:
+  - title: Quam turpis feugiat dolor
+    url: \#
+  - title: Amet ornare in hendrerit
+    url: \#
+  - title: Semper mod quisturpis nisi
+    url: \#
+  - title: Consequat etiam phasellus
+    url: \#
+  - title: Amet turpis, feugiat et
+    url: \#
+  - title: Ornare hendrerit lectus
+    url: \#
+  - title: Amet ornare in hendrerit
+    url: \#
+  - title: Consequat lorem phasellus
+    url: \#
+  - title: Amet turpis, feugiat amet
+    url: \#
+  - title: Semper mod quisturpis
+    url: \#
+
+more-filler:
+  - title: Quam turpis feugiat dolor
+    url: \#
+  - title: Amet ornare in in lectus
+    url: \#
+  - title: Semper mod sed tempus nisi
+    url: \#
+  - title: Consequat etiam phasellus
+    url: \#
+
+even-more-filler:
+  - title: Quam turpis feugiat dolor
+    url: \#
+  - title: Amet ornare hendrerit lectus
+    url: \#
+  - title: Semper quisturpis nisi
+    url: \#
+  - title: Consequat lorem phasellus
+    url: \#

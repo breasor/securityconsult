@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="wrapper style2">
+  <div class="inner">
+    <div class="container">
+      <div id="content" >
+
+        <!-- Content -->
+
+          <article itemscope itemtype="http://schema.org/BlogPosting">
+            <header class="major" itemprop="name headline">
+              <h2>{{ page.title }}</h2>
+              <p>
+                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+                {% if page.author %} •
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <span itemprop="name">{{ page.author }}</span>
+                </span>{% endif %}</p>
+            </header>
+            <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
+            <p itemprop="articlebody"> {{ content }} </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
