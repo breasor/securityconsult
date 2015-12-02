@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>this is the description
+    <title>Security Consult</title>
+    <description>&quot;A responsive HTML5 site template. Manufactured by HTML5 UP. Jekylled by @breasor&quot;
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Dec 2015 09:09:54 -0500</pubDate>
-    <lastBuildDate>Wed, 02 Dec 2015 09:09:54 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Dec 2015 13:45:38 -0500</pubDate>
+    <lastBuildDate>Wed, 02 Dec 2015 13:45:38 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis, feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Jul 2015 13:59:19 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/07/15/reparing-a-hyperspace-window.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/07/15/reparing-a-hyperspace-window.html</guid>
+        <link>/jekyll/update/2015/07/15/reparing-a-hyperspace-window.html</link>
+        <guid isPermaLink="true">/jekyll/update/2015/07/15/reparing-a-hyperspace-window.html</guid>
         
         
         <category>jekyll</category>
@@ -32,8 +32,8 @@ semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
 feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Jun 2015 13:59:19 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/06/24/adventuring-with-a-knee-injury.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/06/24/adventuring-with-a-knee-injury.html</guid>
+        <link>/jekyll/update/2015/06/24/adventuring-with-a-knee-injury.html</link>
+        <guid isPermaLink="true">/jekyll/update/2015/06/24/adventuring-with-a-knee-injury.html</guid>
         
         
         <category>jekyll</category>
@@ -49,8 +49,8 @@ semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
 feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.&lt;/p&gt;
 </description>
         <pubDate>Mon, 04 May 2015 13:59:19 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/05/04/Preparing-for-Y2K38adventuring.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/05/04/Preparing-for-Y2K38adventuring.html</guid>
+        <link>/jekyll/update/2015/05/04/Preparing-for-Y2K38adventuring.html</link>
+        <guid isPermaLink="true">/jekyll/update/2015/05/04/Preparing-for-Y2K38adventuring.html</guid>
         
         
         <category>jekyll</category>

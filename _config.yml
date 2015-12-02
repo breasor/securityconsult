@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
+title: Security Consult
 description: >
   "A responsive HTML5 site template. Manufactured by HTML5 UP. Jekylled by @breasor"
 about: > # this means to ignore newlines until "baseurl:"
@@ -38,56 +38,56 @@ dropdown:
     url: \#
 
 contact:
-  twitter: untitled-corp
-  facebook: untitled-corp
-  www: untitled-corp.tld
-  email: user@untitled-corp.tld
+  twitter: 411security
+  facebook: 411SC
+  www: www.securityconsult411.com
+  email: info@securityconsult411.com
   address:
-    street1: 1234 Fictional Rd
+    street1: PO Box 12611
     street2:
-    city: Nashville
-    state: TN
-    zip: 00000-0000
-  phone: (000) 000-0000
+    city: Charlotte
+    state: NC
+    zip: 28220-2611
+  phone: (704) 531-8399
 
 filler:
-  - title: Quam turpis feugiat dolor
+  - title: Burglar Alarm Systems
     url: \#
-  - title: Amet ornare in hendrerit
+  - title: Cellular Backup
     url: \#
-  - title: Semper mod quisturpis nisi
+  - title: Fire Alarm Systems
     url: \#
-  - title: Consequat etiam phasellus
+  - title: Home Alarm Monitoring
     url: \#
-  - title: Amet turpis, feugiat et
+  - title: Home Camera Systems
     url: \#
-  - title: Ornare hendrerit lectus
+  - title: Smoke Alarm Systems
     url: \#
-  - title: Amet ornare in hendrerit
-    url: \#
-  - title: Consequat lorem phasellus
-    url: \#
-  - title: Amet turpis, feugiat amet
-    url: \#
-  - title: Semper mod quisturpis
+  - title: Transfer you monitoring
     url: \#
 
-more-filler:
-  - title: Quam turpis feugiat dolor
-    url: \#
-  - title: Amet ornare in in lectus
-    url: \#
-  - title: Semper mod sed tempus nisi
-    url: \#
-  - title: Consequat etiam phasellus
-    url: \#
 
 even-more-filler:
-  - title: Quam turpis feugiat dolor
+  - title: Domestic Infidelity
     url: \#
-  - title: Amet ornare hendrerit lectus
+  - title: Child Custody/Visitation
     url: \#
-  - title: Semper quisturpis nisi
+  - title: Insurance Fraud
     url: \#
-  - title: Consequat lorem phasellus
+
+
+more-filler:
+  - title: Access Control Systems
+    url: \#
+  - title: Alarm Monitoring & Cell Back UP
+    url: \#
+  - title: Environmental Protection
+    url: \#
+  - title: Fire Alarm Systems
+    url: \#
+  - title: Intrusion Detection
+    url: \#
+  - title: IP Video Surveillance
+    url: \#
+  - title: Transfer your monitoring
     url: \#
