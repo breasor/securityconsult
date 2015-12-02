@@ -14,7 +14,7 @@ about: > # this means to ignore newlines until "baseurl:"
   <p>Hi! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site template by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
   It's <a href="http://html5up.net/license/">Creative Commons Attribution</a> licensed so use it for any personal or commercial project (just credit us for the design!).</p>
   <a href="#" class="button alt icon fa-arrow-circle-right">Learn More</a>
-baseurl: "/zerofour-jeylled" # the subpath of your site, e.g. /blog
+baseurl: "/securityconsult" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 
