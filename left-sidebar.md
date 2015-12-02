@@ -1,6 +1,6 @@
 ---
 layout: left-sidebar
-permalink: /left-sidebar
+permalink: /left-sidebar.html
 ---
 
 
