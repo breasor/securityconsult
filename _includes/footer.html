@@ -10,7 +10,7 @@
               <h2>Home Services</h2>
               <ul class="divided">
                 {% for node in site.filler %}
-                <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                <li><a href="{{site.baseurl}}/{{ node.url }}">{{ node.title }}</a></li>
                 {% endfor %}
               </ul>
             </section>
@@ -23,7 +23,7 @@
               <h2>Business Services</h2>
               <ul class="divided">
                 {% for node in site.more-filler %}
-                <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                <li><a href="{{site.baseurl}}/{{ node.url }}">{{ node.title }}</a></li>
                 {% endfor %}
               </ul>
             </section>
@@ -33,7 +33,7 @@
               <h2>Investigative</h2>
               <ul class="divided">
                 {% for node in site.even-more-filler %}
-                <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                <li><a href="{{site.baseurl}}/{{ node.url }}">{{ node.title }}</a></li>
                 {% endfor %}
               </ul>
             </section>
