@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+
+<div class="wrapper style2">
+  <div class="inner">
+    <div class="container">
+      <div id="content" >
+
+        <!-- Content -->
+          {% for review in site.data.testimonials %}
+          <article>
+            <header class="major">
+              <h4>{{ review.project }}</h4>
+             {{review.date}}<br />
+
+            </header>
+            <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
+
+            <p>
+             <strong>{{ review.reviewer }}</strong> from {{ review.location }} says: {{ review.comments }}
+             </p>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
