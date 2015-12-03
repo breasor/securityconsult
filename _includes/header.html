@@ -18,7 +18,7 @@
                     <a href="#">Home Solutions</a>
                     <ul>
                       {% for node in site.filler %}
-                      <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                      <li><a href="{{site.baseurl}}/{{ node.url }}">{{ node.title }}</a></li>
                       {% endfor %}
                     </ul>
               </li>
@@ -26,7 +26,7 @@
 										<a href="#">Business Solutions</a>
 										<ul>
                       {% for node in site.more-filler %}
-                      <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                      <li><a href="{{site.baseurl}}/{{ node.url }}">{{ node.title }}</a></li>
                       {% endfor %}
 										</ul>
 							</li>
@@ -34,7 +34,7 @@
                     <a href="#">Investigative Solutions</a>
                     <ul>
                       {% for node in site.even-more-filler %}
-                      <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                      <li><a href="{{site.baseurl}}/{{ node.url }}">{{ node.title }}</a></li>
                       {% endfor %}
                     </ul>
               </li>
