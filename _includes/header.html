@@ -6,7 +6,7 @@
         <header id="header">
           <div class="inner">
 
-            <h1>  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            <h1>  <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl}}/images/logo.jpg" alt="" /></a></h1>
             <nav id="nav">
               <ul>
 <!--
@@ -15,7 +15,7 @@
               {% endfor %}
 -->
               <li>
-                    <a href="#">Home Solutions</a>
+                    <a href="#">Home</a>
                     <ul>
                       {% for node in site.filler %}
                       <li><a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
@@ -23,7 +23,7 @@
                     </ul>
               </li>
               <li>
-										<a href="#">Business Solutions</a>
+										<a href="#">Business</a>
 										<ul>
                       {% for node in site.more-filler %}
                       <li><a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
@@ -31,7 +31,7 @@
 										</ul>
 							</li>
               <li>
-                    <a href="#">Investigative Solutions</a>
+                    <a href="#">Investigative</a>
                     <ul>
                       {% for node in site.even-more-filler %}
                       <li><a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
