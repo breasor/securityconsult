@@ -5,7 +5,8 @@ permalink: /about-us/
 ---
 
 ## Your safety and security are our number one concern
-
+---
+---
 Established in 2010 by Julius Ulanday, we have been serving the Charlotte and surrounding areas.  Security Consult, Inc is committed to excellence.  We focus on our customers and find solutions that best fit their needs.
 
 
