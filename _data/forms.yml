@@ -1,0 +1,61 @@
+---
+- name: Credit Card Authorization Form
+  description: V1/13
+  type: pdf
+  category: forms
+  location: "data/Security Consult Credit Card Authorization Form Word ver1.13.pdf"
+- name: Central Station Alarm Data Sheet
+  description: All information our Central Station needs to dispatch the proper authorities to your location
+  type: pdf
+  category: forms
+  location: "data/COPS Central Station Alarm_Data_Sheet.pdf"
+- name: Total Connect Subscriber Form
+  description: Download this form and fill out to activate your Total Connect services.  Please scan and email back to info@securityconsult411.com
+  type: pdf
+  category: forms
+  location: "data/Total Connect Subscriber Form.pdf"
+- name: Total Connect Online Help Guide
+  description: Total Connect Online Help Guide
+  type: pdf
+  category: forms
+  location: "data/Total Connect online help guide.pdf"
+- name: Lynx Touch L5100 Wireless Control Panel
+  description: >
+    This system offers you three forms of protection: burglary, fire, and emergency, depending on the configuration of your system.
+  type: pdf
+  category: panel_manual
+  location: "data/L5100 User Guide.pdf"
+- name: Lynx Plus L3000 Wireless Control Panel
+  description: >
+    This system offers you three forms of protection: burglary, fire, and emergency, depending on the configuration of your system.
+  type: pdf
+  category: panel_manual
+  location: "data/Lynx Plus L3000.pdf"
+- name: Vista 15p
+  description: >
+      This system offers you three forms of protection: burglary, fire, and emergency, depending on the configuration of your system.
+  type: pdf
+  category: panel_manual
+  location: "data/Vista 15p Users Guide.pdf"
+- name: Vista 20p
+  description: >
+      This system offers you three forms of protection: burglary, fire, and emergency, depending on the configuration of your system.
+  type: pdf
+  category: panel_manual
+  location: "data/Vista 20P Users Guide.pdf"
+- name: Lynx
+  description: >
+      This system offers you three forms of protection: burglary, fire, and emergency, depending on the configuration of your system.
+  type: pdf
+  category: panel_manual
+  location: "data/Lynx User Manual.pdf"
+- name: Honeywell HRG Performance Series DVR
+  description: The HRG series digital video recorder (DVR) offers clear crisp video using H.264 video compression and supports a high-end feature set
+  type: pdf
+  category: other_manual
+  location: "data/Perf_Series_DVR_User_Guide_web 800-12005V1.pdf"
+- name: Cricket DVRs 4, 8 and 16 channel
+  description: User Manual
+  type: pdf
+  category: other_manual
+  location: "data/Cricket_manual.pdf"
