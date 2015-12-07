@@ -26,39 +26,45 @@
 
                     <section>
                       <header>
-                    <h1>Get In Touch!</h1>
-                    <h2>Fill out our super swanky HTML5 contact form below to get in touch with us! Please provide as much information as possible for us to help you with your enquiry :)</h2>
-                  </header>
-                    <ul id="errors" class="">
-                        <li id="info">There were some problems with your form submission:</li>
-                    </ul>
-                    <p id="success">Thanks for your message! We will get back to you ASAP!</p>
-                    <form action="http://formspree.io/brett.reasor@gmail.com" method='post'>
-                        <label for="name">Name: <span class="required">*</span></label>
-                        <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" autofocus="autofocus" />
+                        <h2>Contact Us</h2>
+                        <p>Please fill out the form below to request a security consultation with Complete Security Systems. We will respond to you shortly to confirm your appointment for an on site evaluation of your business or home.</p>
+                      </header>
 
-                        <label for="email">Email Address: <span class="required">*</span></label>
-                        <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" />
-
-                        <label for="telephone">Telephone: </label>
-                        <input type="tel" id="telephone" name="telephone" value="" />
-
-                        <label for="enquiry">Enquiry: </label>
-                        <select id="enquiry" name="enquiry">
-                            <option value="general">General</option>
-                            <option value="sales">Sales</option>
-                            <option value="support">Support</option>
-                        </select>
-
-                        <label for="message">Message: <span class="required">*</span></label>
-                        <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
-
-                        <span id="loading"></span>
-                        <footer>
-                        <input type="submit" value="Holla!" id="submit-button" />
-                        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
-                      </footer>
+                    <form action="http://formspree.io/brett.reasor@gmail.com" method='post' id="contact-form">
+                      <div class="row uniform">
+                        <div class="12u"><input type="text" name="name" id="name" placeholder="Name" required /></div>
+                      </div>
+                      <div class="row uniform">
+                        <div class="6u 12u(mobile)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                        <div class="6u 12u(mobile)"><input type="tel" name="phone" id="name" placeholder="Phone" /></div>
+                      </div>
+                      <div class="row uniform">
+                        <div class="6u 12u(mobile)"><input type="text" name="address1" id="name" placeholder="Address Line 1" /></div>
+                        <div class="6u 12u(mobile)"><input type="text" name="address2" id="subject" placeholder="Address Line 2" /></div>
+                      </div>
+                      <div class="row uniform">
+                        <div class="4u 12u(mobile)"><input type="text" name="city" id="city" placeholder="City" /></div>
+                        <div class="4u 12u(mobile)"><input type="text" name="state" id="state" placeholder="State" /></div>
+                        <div class="4u 12u(mobile)"><input type="text" pattern="[0-9]*" name="zip" id="zip" placeholder="Zip" /></div>
+                      </div>
+                      <div class="row uniform">
+                        <div class="12u"><input type="text" name="referral" id="referral" placeholder="Did anyone refer you to us?" /></div>
+                      </div>
+                      <div class="row uniform">
+                        <div class="12u"><textarea name="message" id="message" placeholder="Tell us what you are looking for" rows="6"></textarea></div>
+                      </div>
+                      <div class="row uniform">
+                        <div class="6u">
+                          <ul class="actions">
+                            <li><input type="submit" class="button medium icon fa-thumbs-up" value="Submit" /></li>
+                            <li><input type="reset" class="button medium alt icon fa-thumbs-down" value="Reset" /></li>
+                          </ul>
+                        </div>
+                      </div>
                     </form>
+
+
+
 </section>
 
                   </div>
