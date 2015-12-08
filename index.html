@@ -105,7 +105,8 @@ title: Home
             <!-- Article list -->
               <section class="box article-list">
                 <h2 class="icon fa-file-text-o">Recent Posts</h2>
-                {% for post in site.posts limit:3 %}
+                {% for post in site.posts limit:4 %}
+									{% if post.category == "blog" %}
                   <!-- Excerpt -->
                   <article class="box excerpt">
                   {% if post.image != null %}
@@ -120,6 +121,7 @@ title: Home
                     <p>{{ post.excerpt }}</p>
                   </div>
                 </article>
+								{% endif %}
                 {% endfor %}
               </section>
           </div>

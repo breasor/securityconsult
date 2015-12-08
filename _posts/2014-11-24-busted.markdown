@@ -2,8 +2,10 @@
 layout: post
 title: "Thief Doesn't Notice Surveillance Camera "
 date:   2014-11-24 12:59:19 -0500
-categories: caught media
+category: blog
 image: images/busted.png
+tags: ['caught', 'media', 'busted', 'security', 'camera']
+permalink: /blog/:year/:month/:title.html
 ---
 
 Local business and Security Consult, Inc customer Ink Floyd recently had their sign cut down.  Our camera was there to catch the thief red handed.   At Security Consult, Inc. we offer a variety of video surveillance options, contact us now.

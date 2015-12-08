@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Beware of hackers watching your web cameras"
+title: "How safe is your home from burglars?"
 date:   2015-11-18 12:59:19 -0500
-categories: caught media
+category: blog
+permalink: /blog/:year/:month/:title.html
 image: images/what-burglars-look-for.png
 ---
 

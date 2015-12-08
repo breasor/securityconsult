@@ -2,7 +2,8 @@
 layout: post
 title: "Cocktail Chatter with Josh Zepps"
 date:   2015-01-06 12:59:19 -0500
-categories: caught media
+category: blog
+permalink: /blog/:year/:month/:title.html
 image: images/cocktail-hour.jpg
 ---
 

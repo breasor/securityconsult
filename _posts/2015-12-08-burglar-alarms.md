@@ -1,6 +1,10 @@
 ---
 layout: right-sidebar
-permalink: /burglar-alarms/
+title: Burglar Alarm Systems
+date: 2015-12-08
+category: home-security
+tags: ['burglar', 'alarm', 'systems', 'security', 'camera']
+permalink: /home-security/:title.html
 ---
 
 
