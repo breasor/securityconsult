@@ -32,16 +32,16 @@ timezone:      null
 
 collections:
   home_security:
-    output: false
+    output: true
     permalink: /home-security/:path/
   business_security:
     output: true
     permalink: /business-security/:path/
   investigations:
-    output: false
+    output: true
     permalink: /investigations/:path/
   manuals:
-    output: false
+    output: true
 
 
 
