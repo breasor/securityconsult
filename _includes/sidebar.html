@@ -1,45 +1,48 @@
-
  <section>
-  <header class="major">
-    <h2>Rates</h2>
-  </header>
-  <p>Residential, Commercial, Intrusion, Fire Alarm and Existing System Activation or Take-over.
-    We offer a variation of monitoring rates to suit your needs.  We will find what works for you please call us for details.  </p>
+   <header>
+     <h2>Contact Us</h2>
+     <p>Send us a quick message and we'll follow up with you as soon as we can</p>
+   </header>
 
+   <form action="http://formspree.io/brett.reasor@gmail.com" method='post'  id="contact-form">
+     <div class="row uniform">
+       <div class="12u"><input type="text" name="name" id="name" placeholder="Name" /></div>
+     </div>
+     <div class="row uniform">
+       <div class="12u"><input type="email" name="email" id="email" placeholder="Email" /></div>
+     </div>
+     <div class="row uniform">
+       <div class="12u"><input type="tel" name="tel" id="tel" placeholder="Phone Number" /></div>
+     </div>
+     <div class="row uniform">
+       <div class="12u"><textarea name="message" id="message" placeholder="How can we help?" rows="6"></textarea></div>
+     </div>
+     <div class="row uniform">
+       <div class="12u">
+         <ul class="actions">
+           <li><input type="submit" class="special" value="Contact Us" /></li>
+         </ul>
+       </div>
+     </div>
+   </form>
 
-  <footer>
-  <!--  <a href="#" class="button icon fa-info-circle">Find out more</a> -->
-
-
-  <ul class='default'>
-    <li>Basic landline monitoring: $24.95</li>
-    <li>Cellular Monitoring (primary or backup): $39.95</li>
-    <li>Enhanced Cellular Services: $44.95+</li>
-    <li>Remote arm/disarm, remote video, home automation<sup>&dagger;</sup>: $54.95+</li>
-  </ul>
-  <ul>
-    <li><sup>&dagger;</sup> Requires Additional Equipment</li>
-  </ul>
-  </footer>
 </section>
-
-
-<section>
-  <header class="major">
-    <h2>Service Area</h2>
-  </header>
-  <ul class="default">
-    <li>Charlotte</li>
-    <li>Matthews</li>
-    <li>Gastonia</li>
-    <li>Huntersville</li>
-    <li>Midland</li>
-    <li>Stanley</li>
-    <li>Davidson</li>
-    <li>Cornelius</li>
-    <li>Cramerton</li>
-  </ul>
-  <footer>
-    <!-- <a href="#" class="button icon fa-arrow-circle-o-right">Do Something</a> -->
-  </footer>
+<section class="box article-list">
+  <h2 class="icon fa-file-text-o">Latest Post</h2>
+  {% for post in site.posts limit:1 %}
+    <!-- Excerpt -->
+    <article class="box excerpt">
+    {% if post.image != null %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="image left"></a>
+      {% endif %}
+    <div>
+      <header>
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><h3>
+      </header>
+      <p>{{ post.excerpt }}</p>
+    </div>
+  </article>
+  {% endfor %}
 </section>
+ 

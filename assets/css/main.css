@@ -1376,7 +1376,7 @@
 			position: absolute;
 			left: 0;
 			top: 0;
-			background: url("images/bg01.png");
+			/* background: url("images/bg01.png"); */
 			width: 100%;
 			height: 100%;
 			opacity: 0.75;
@@ -2427,10 +2427,10 @@
 }
 
 #contact-form div {
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-bottom: 0;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
 	margin: 0;
 }
 
