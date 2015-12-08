@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="left-sidebar">
+
+      <div id="page-wrapper">
+
+      {% include header.html %}
+
+
+      <div id="main-wrapper">">
+        <div class="wrapper style2">
+          <div class="inner">
+            <div class="container">
+              <div class="row">
+
+                <div class="8u 12u(mobile) important(mobile)">
+                  <div id="content">
+                    {{ content }}
+                  </div>
+                </div>
+                <div class="4u 12u(mobile)">
+                  <div id="sidebar">
+                    {% include sidebar.html %}
+                  </div>
+                </div>
+              </div>
+
+              <!-- row content -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {% include footer.html %}
+
+  </div>
+  </body>
+
+</html>

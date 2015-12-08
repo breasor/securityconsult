@@ -1,0 +1,93 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Security Consult
+description: >
+  "A responsive HTML5 site template. Manufactured by HTML5 UP. Jekylled by @breasor"
+about: > # this means to ignore newlines until "baseurl:"
+  <h2><strong>ZeroFour</strong> by HTML5 UP</h2>
+  <p>Hi! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site template by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
+  It's <a href="http://html5up.net/license/">Creative Commons Attribution</a> licensed so use it for any personal or commercial project (just credit us for the design!).</p>
+  <a href="#" class="button alt icon fa-arrow-circle-right">Learn More</a>
+baseurl: "/securityconsult" # the subpath of your site, e.g. /blog
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+header-links:
+  - title: Home
+    url: /
+  - title: Left sidebar
+    url: /left-sidebar
+  - title: Right Sidebar
+    url: /right-sidebar
+  - title: No Sidebar
+    url: /no-sidebar
+dropdown:
+  - title: Lorem ipsum dolor
+    url: \#
+  - title: Magna phasellus
+    url: \#
+  - title: Veroeros feugiat
+    url: \#
+
+contact:
+  twitter: 411security
+  facebook: 411SC
+  www: www.securityconsult411.com
+  email: info@securityconsult411.com
+  address:
+    street1: PO Box 12611
+    street2:
+    city: Charlotte
+    state: NC
+    zip: 28220-2611
+  phone: (704) 531-8399
+
+filler:
+  - title: Burglar Alarm Systems
+    url: \#
+  - title: Cellular Backup
+    url: \#
+  - title: Fire Alarm Systems
+    url: \#
+  - title: Home Alarm Monitoring
+    url: \#
+  - title: Home Camera Systems
+    url: \#
+  - title: Smoke Alarm Systems
+    url: \#
+  - title: Transfer you monitoring
+    url: \#
+
+
+even-more-filler:
+  - title: Domestic Infidelity
+    url: \#
+  - title: Child Custody/Visitation
+    url: \#
+  - title: Insurance Fraud
+    url: \#
+
+
+more-filler:
+  - title: Access Control Systems
+    url: \#
+  - title: Alarm Monitoring & Cell Back UP
+    url: \#
+  - title: Environmental Protection
+    url: \#
+  - title: Fire Alarm Systems
+    url: \#
+  - title: Intrusion Detection
+    url: \#
+  - title: IP Video Surveillance
+    url: \#
+  - title: Transfer your monitoring
+    url: \#
