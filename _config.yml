@@ -15,10 +15,42 @@ about: > # this means to ignore newlines until "baseurl:"
   It's <a href="http://html5up.net/license/">Creative Commons Attribution</a> licensed so use it for any personal or commercial project (just credit us for the design!).</p>
   <a href="#" class="button alt icon fa-arrow-circle-right">Learn More</a>
 baseurl: "/securityconsult" # the subpath of your site, e.g. /blog
+keywords:
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+collections:
+  home_security:
+    output: false
+  business_security:
+    output: true
+    permalink: /business-security/:path/
+  investigations:
+    output: false
+  manuals:
+    output: false
+
+
+defaults:
+  -
+    scope:
+      path: "home-security"
+      type: "pages"
+    values:
+      layout: home-security
+      category: home-security
+
 header-links:
   - title: Home
     url: /

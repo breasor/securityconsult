@@ -1,6 +1,7 @@
 ---
 layout: right-sidebar
-permalink: /home-alarm-monitoring/
+title: Transfer Your Monitoring
+category: home-security
 ---
 
 

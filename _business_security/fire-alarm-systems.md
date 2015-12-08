@@ -1,6 +1,6 @@
 ---
 layout: right-sidebar
-permalink: /fire-alarm-systems/
+title: Fire Alarm Systems
 ---
 
 

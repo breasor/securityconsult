@@ -1,6 +1,7 @@
 ---
 layout: right-sidebar
-permalink: /smoke-alarm-systems/
+title: Smoke Alarm Systems
+category: home-security
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: right-sidebar
-permalink: /home-camera-systems/
+title: Alarm Monitoring
+category: home-security
 ---
 
 

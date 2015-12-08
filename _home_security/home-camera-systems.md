@@ -1,6 +1,7 @@
 ---
 layout: right-sidebar
-permalink: /transfer-your-monitoring/
+title: Security Camera Systems
+category: home-security
 ---
 
 

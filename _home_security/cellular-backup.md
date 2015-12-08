@@ -1,6 +1,7 @@
 ---
 layout: right-sidebar
-permalink: /cellular-backup/
+title: Cellular Backup
+category: home-security
 ---
 
 
