@@ -1,7 +1,6 @@
 ---
 layout: right-sidebar
-title: Security Camera Systems
-
+title: Alarm Monitoring & Cell Backup
 ---
 
 

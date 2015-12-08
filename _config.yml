@@ -33,23 +33,17 @@ timezone:      null
 collections:
   home_security:
     output: false
+    permalink: /home-security/:path/
   business_security:
     output: true
     permalink: /business-security/:path/
   investigations:
     output: false
+    permalink: /investigations/:path/
   manuals:
     output: false
 
 
-defaults:
-  -
-    scope:
-      path: "home-security"
-      type: "pages"
-    values:
-      layout: home-security
-      category: home-security
 
 header-links:
   - title: Home
