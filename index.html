@@ -21,17 +21,19 @@ title: Home
         <div class="row">
           <div class="4u 12u(mobile)">
             <section>
-              <a href="/business-security" class="image featured"><img src="images/officeworker.jpg" alt="" /></a>
-              <header class="second icon fa-user">
-                <h3>Business Security</h3>
+              <a href="{{ site.baseurl }}/business-security/" class="image featured"><img class="featured small" src="images/officeworker.jpg" alt="" /></a>
+              <header class="second icon fa-building">
+                <a href="/business-security" class="featured">
+								<h3>Business Security</h3>
                 <p>Protect your business</p>
+							</a>
               </header>
             </section>
           </div>
           <div class="4u 12u(mobile)">
             <section>
               <a href="/home-security" class="image featured"><img src="images/family.jpg" alt="" /></a>
-              <header class="second icon fa-cog">
+              <header class="second icon fa-home">
                 <h3>Home Security</h3>
                 <p>Protect your home</p>
               </header>
@@ -39,10 +41,10 @@ title: Home
           </div>
           <div class="4u 12u(mobile)">
             <section>
-              <a href="/monitoring" class="image featured"><img src="images/NOC.jpg" alt="" /></a>
-              <header class="second icon fa-bar-chart-o">
-                <h3>Monitoring Solutions</h3>
-                <p>Get monitoring services</p>
+              <a href="{{site.baseurl}}/investigative/" class="image featured"><img src="images/investigative.png" alt="" /></a>
+              <header class="second icon fa-user">
+                <h3>Investigative Solutions</h3>
+                <p>Protect your life</p>
               </header>
             </section>
           </div>
@@ -73,7 +75,7 @@ title: Home
 								implement and install effective solutions that protect the homes, families and assets of our clients and the properties,
 								inventory and employees of local businesses; while striving for excellence in service and value.</p>
                 <footer>
-                  <a href="/mission" class="button medium icon fa-arrow-circle-right">Learn More</a>
+                  <a href="/mission" class="button medium icon fa-book">Learn More</a>
                 </footer>
               </section>
             </div>
@@ -83,9 +85,9 @@ title: Home
                   <h2>Our Partners</h2>
                   <p>The best companies in the security industry</p>
                 </header>
-                <p></p>
+                <p>Security Consult, Inc. partners with the best companies in the security industry to serve you with superior quality products. We strive for perfection and are always up to date with the latest technologies. Even if your product isn't listed we can still service your equipment!</p>
                 <footer>
-                  <a href="#" class="button medium alt icon fa-info-circle">Wait, what?</a>
+                  <a href="#" class="button medium alt icon fa-certificate">Learn More</a>
                 </footer>
               </section>
             </div>
@@ -103,7 +105,7 @@ title: Home
             <!-- Article list -->
               <section class="box article-list">
                 <h2 class="icon fa-file-text-o">Recent Posts</h2>
-                {% for post in site.posts %}
+                {% for post in site.posts limit:3 %}
                   <!-- Excerpt -->
                   <article class="box excerpt">
                   {% if post.image != null %}
@@ -127,20 +129,22 @@ title: Home
               <section class="box spotlight">
                 <h2 class="icon fa-file-text-o">Testimonial</h2>
                 <article>
-                  <a href="#" class="image featured"><img src="images/pic07.jpg" alt=""></a>
-                  <header>
-                    <h3><a href="#">Dain Roggenbaum</a></h3>
-                    <p>A Google Review</p>
-                  </header>
-                  <p> We've been customers of Security Consult for over 6 years, and have genuinely enjoyed
-										the professionalism and courtesy with which we are always treated. We have had other
-										security companies before which, in comparison, fell short of our expectations.
-										With Security Consult you can be rest assured that your family is not only safe,
-										but your needs will be handled in a expeditious and honest manner.
-										</p>
-                  <p>We would highly recommend Security Consult for all of your security needs!</p>
+                  <a href="#" class="image featured"><img src="images/testimonials.jpg" alt=""></a>
+
+				            <header class="major">
+				              <h4>{{ site.data.testimonials[0].project }}</h4>
+				             {{site.data.testimonials[0].date}}<br />
+
+				            </header>
+				            <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
+
+				            <p>
+				             <strong>{{ site.data.testimonials[0].reviewer }}</strong> from {{ site.data.testimonials[0].location }} says: {{ site.data.testimonials[0].comments }}
+				             </p>
+
+
                   <footer>
-                    <a href="#" class="button alt icon fa-file-o">Continue Reading</a>
+	                    <a href="{{ site.baseurl }}/testimonials/" class="button alt icon fa-file-o">Read More</a>
                   </footer>
                 </article>
               </section>

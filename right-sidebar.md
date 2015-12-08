@@ -1,6 +1,6 @@
 ---
 layout: right-sidebar
-permalink: /right-sidebar
+permalink: /right-sidebar/
 ---
 <article>
   <header class="major">

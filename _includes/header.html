@@ -6,32 +6,40 @@
         <header id="header">
           <div class="inner">
 
-            <h1>  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            <h1>  <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl}}/images/logo.jpg" alt="{{ site.title }}" class="image block"/></a></h1>
             <nav id="nav">
               <ul>
-
+<!--
               {% for node in site.header-links %}
                 <li><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
               {% endfor %}
+-->
               <li>
-    													<a href="#">Dropdown</a>
-    													<ul>
-    														<li><a href="#">Lorem ipsum dolor</a></li>
-    														<li><a href="#">Magna phasellus</a></li>
-    														<li>
-    															<a href="#">Phasellus consequat</a>
-    															<ul>
-    																<li><a href="#">Lorem ipsum dolor</a></li>
-    																<li><a href="#">Phasellus consequat</a></li>
-    																<li><a href="#">Magna phasellus</a></li>
-    																<li><a href="#">Etiam dolore nisl</a></li>
-    															</ul>
-    														</li>
-    														<li><a href="#">Veroeros feugiat</a></li>
-    													</ul>
-    												</li>
+                    <a href="#">Home</a>
+                    <ul>
+                      {% for node in site.filler %}
+                      <li><a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+              </li>
+              <li>
+										<a href="#">Business</a>
+										<ul>
+                      {% for node in site.more-filler %}
+                      <li><a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
+                      {% endfor %}
+										</ul>
+							</li>
+              <li>
+                    <a href="#">Investigative</a>
+                    <ul>
+                      {% for node in site.even-more-filler %}
+                      <li><a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+              </li>
 
-                <li><a href="#" class="button icon fa-info-circle">Sign Up</a></li>
+                 <li><a href="{{site.baseurl}}/about-us/" class="button icon fa-info-circle">About Us</a></li>
               </ul>
             </nav>
           </div>

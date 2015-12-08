@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+
+<div class="wrapper style2">
+  <div class="inner">
+    <div class="container">
+      <div id="content" >
+
+        <!-- Content -->
+
+          <article>
+            <header class="major">
+              <h2>{{ page.title }}</h2>
+            </header>
+            <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
+            <a name="forms"></a>
+            <article>
+              <header class="major">
+                <h3>Forms</h3>
+              </header>
+              <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
+              {% for form in site.data.forms %}
+              {% if form.category == 'forms' %}
+
+                <div class="leftDownload">
+                  {% if form.type == "pdf" %}
+                    <a href="{{ site.baseurl }}/{{ form.location }}"><img src="{{site.baseurl}}/assets/icons/pdf.jpg" align="top"></a>
+                                   {% endif %}
+                </div>
+                <div class="rightDownload"><a href="{{ site.baseurl }}/{{ form.location }}">{{ form.name }} </a><br />
+                <p>
+                 {{ form.description }}</p>
+               </div>
+            {% endif %}
+            {% endfor %}
+            </article>
+          </article>
+          <a name="UserManuals"></a>
+          <article>
+            <header class="major">
+              <h3>Panel User Manuals</h3>
+            </header>
+            <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
+            {% for form in site.data.forms %}
+            {% if form.category == "panel_manual" %}
+
+              <div class="leftDownload">
+                {% if form.type == 'pdf' %}
+                  <a href="{{ site.baseurl }}/{{ form.location }}"><img src="{{site.baseurl}}/assets/icons/pdf.jpg" align="top"></a>
+                {% endif %}
+              </div>
+              <div class="rightDownload"><a href="{{ site.baseurl }}/{{ form.location }}">{{ form.name }} </a><br />
+              <p>
+               {{ form.description }}</p>
+             </div>
+          {% endif %}
+          {% endfor %}
+          </article>
+          <a name="OtherManuals"></a>
+          <article>
+            <header class="major">
+              <h3>Other User Manuals</h3>
+            </header>
+            <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
+            {% for form in site.data.forms %}
+            {% if form.category == "other_manual" %}
+
+              <div class="leftDownload">
+                {% if form.type == 'pdf' %}
+                  <a href="{{ site.baseurl }}/{{ form.location }}"><img src="{{site.baseurl}}/assets/icons/pdf.jpg" align="top"></a>
+                {% endif %}
+              </div>
+              <div class="rightDownload"><a href="{{ site.baseurl }}/{{ form.location }}">{{ form.name }} </a><br />
+              <p>
+               {{ form.description }}</p>
+             </div>
+          {% endif %}
+          {% endfor %}
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>

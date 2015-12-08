@@ -10,11 +10,18 @@
               <h2>Home Services</h2>
               <ul class="divided">
                 {% for node in site.filler %}
-                <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                <li><a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
                 {% endfor %}
               </ul>
             </section>
-
+            <section>
+              <h2>Forms and User Manuals</h2>
+              <ul class="divided">
+                <li><a href="{{site.baseurl}}/forms/#forms">Download Forms</a></li>
+                <li><a href="{{site.baseurl}}/forms/#UserManuals">Download User Manuals</a></li>
+                <li><a href="{{site.baseurl}}/forms/#OtherManuals">Download Other Manuals</a></li>
+              </ul>
+            </section>
         </div>
         <div class="3u 12u(mobile)">
 
@@ -23,7 +30,7 @@
               <h2>Business Services</h2>
               <ul class="divided">
                 {% for node in site.more-filler %}
-                <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                <li><a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
                 {% endfor %}
               </ul>
             </section>
@@ -33,7 +40,7 @@
               <h2>Investigative</h2>
               <ul class="divided">
                 {% for node in site.even-more-filler %}
-                <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                <li><a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
                 {% endfor %}
               </ul>
             </section>
@@ -43,7 +50,9 @@
 
           <!-- About -->
             <section>
-              {{ site.about }}
+              <h2><strong>Security Consult, Inc</strong></h2>
+              <a href="{{ site.baseurl }}/about-us/" class="image featured"><img src="{{ site.baseurl}}/images/logo.jpg" alt="" /></a>
+              <a href="{{ site.baseurl }}/about-us/" class="button alt icon fa-info">About Us</a>
             </section>
 
           <!-- Contact -->
@@ -53,29 +62,31 @@
                 <div class="row">
                   <div class="6u 12u(mobile)">
                     <dl class="contact">
-                      <dt>Twitter</dt>
-                      <dd><a href="http://twitter.com/{{ site.contact.twitter }}">@{{ site.contact.twitter }}</a></dd>
-                      <dt>Facebook</dt>
-                      <dd><a href="http://facebook.com/{{ site.contact.facebook }}">facebook.com/{{ site.contact.facebook }}</a></dd>
-                      <dt>WWW</dt>
-                      <dd><a href="http://{{ site.contact.www }}">{{ site.contact.www }}</a></dd>
-                      <dt>Email</dt>
-                      <dd><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></dd>
+                      <dt class="icon fa-twitter"></dt>
+                      <dd><a href="http://twitter.com/{{ site.data.contact.twitter }}">@{{ site.data.contact.twitter }}</a></dd>
+                      <dt class="icon fa-facebook"></dt>
+                      <dd><a href="http://facebook.com/{{ site.data.contact.facebook }}">facebook.com/{{ site.data.contact.facebook }}</a></dd>
+                      <dt class="icon fa-google-plus"></dt>
+                      <dd><a href="http://plus.google.com/+{{ site.data.contact.googleplus }}">+{{ site.data.contact.googleplus }}</a></dd>
+                      <dt class="icon fa-globe"></dt>
+                      <dd><a href="http://{{ site.data.contact.www }}">{{ site.data.contact.www }}</a></dd>
+                      <dt class="icon fa-envelope"></dt>
+                      <dd><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></dd>
                     </dl>
                   </div>
                   <div class="6u 12u(mobile)">
                     <dl class="contact">
-                      <dt>Address</dt>
+                      <dt class="icon fa-map-marker"></dt>
                       <dd>
-                        {{ site.contact.address.street1 }}<br />
-                        {% if site.contact.address.street2 %}
-                          {{ site.contact.address.street2 }}<br />
+                        {{ site.data.contact.address.street1 }}<br />
+                        {% if site.data.contact.address.street2 %}
+                          {{ site.data.contact.address.street2 }}<br />
                         {% endif %}
-                        {{ site.contact.address.city }}, {{ site.contact.address.state }} {{ site.contact.address.zip }}<br />
+                        {{ site.data.contact.address.city }}, {{ site.data.contact.address.state }} {{ site.data.contact.address.zip }}<br />
 
                       </dd>
-                      <dt>Phone</dt>
-                      <dd>{{ site.contact.phone }}</dd>
+                      <dt class="icon fa-phone"></dt>
+                      <dd>{{ site.data.contact.phone }}</dd>
                     </dl>
                   </div>
                 </div>

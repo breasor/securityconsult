@@ -1,6 +1,6 @@
 ---
 layout: no-sidebar
-permalink: /no-sidebar
+permalink: /no-sidebar/
 ---
 
 <article>

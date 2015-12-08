@@ -8,7 +8,7 @@
 # Site settings
 title: Security Consult
 description: >
-  "A responsive HTML5 site template. Manufactured by HTML5 UP. Jekylled by @breasor"
+  A responsive HTML5 site template. Manufactured by HTML5 UP. Jekylled by @breasor
 about: > # this means to ignore newlines until "baseurl:"
   <h2><strong>ZeroFour</strong> by HTML5 UP</h2>
   <p>Hi! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site template by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
@@ -37,34 +37,21 @@ dropdown:
   - title: Veroeros feugiat
     url: \#
 
-contact:
-  twitter: 411security
-  facebook: 411SC
-  www: www.securityconsult411.com
-  email: info@securityconsult411.com
-  address:
-    street1: PO Box 12611
-    street2:
-    city: Charlotte
-    state: NC
-    zip: 28220-2611
-  phone: (704) 531-8399
-
 filler:
   - title: Burglar Alarm Systems
-    url: \#
+    url: /burglar-alarms/
   - title: Cellular Backup
-    url: \#
+    url: /cellular-backup/
   - title: Fire Alarm Systems
-    url: \#
+    url: /fire-alarm-systems/
   - title: Home Alarm Monitoring
-    url: \#
+    url: /home-alarm-monitoring/
   - title: Home Camera Systems
-    url: \#
+    url: /home-camera-systems/
   - title: Smoke Alarm Systems
-    url: \#
+    url: /smoke-alarm-systems/
   - title: Transfer you monitoring
-    url: \#
+    url: /transfer-your-monitoring/
 
 
 even-more-filler:

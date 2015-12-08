@@ -1268,6 +1268,8 @@
 	form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
+	form input[type="tel"],
+	form input[type="number"],
 	form select,
 	form textarea {
 		-webkit-appearance: none;
@@ -1280,6 +1282,8 @@
 	form input[type="text"]:focus,
 	form input[type="email"]:focus,
 	form input[type="password"]:focus,
+	form input[type="tel"]:focus,
+	form input[type="number"]:focus,
 	form select:focus,
 	form textarea:focus {
 		box-shadow: 0 0 2px 1px #4091bf;
@@ -1287,7 +1291,9 @@
 
 	form input[type="text"],
 	form input[type="email"],
-	form input[type="password"] {
+	form input[type="password"],
+	form input[type="tel"],
+	form input[type="number"] {
 		line-height: 3em;
 		padding: 0 1em;
 	}
@@ -2365,19 +2371,15 @@
 
 /* Contact Form */
 #contact-form {
-    background-color:#F2F7F9;
-    width:465px;
-    padding:20px;
+    background-color:#FFF;
+    /* width:465px; */
+    padding:10px;
     margin: 50px auto;
-    border: 6px solid #8FB5C1;
+     border: 6px solid #7b818c;
     -moz-border-radius:15px;
     -webkit-border-radius:15px;
     border-radius:15px;
     position:relative;
-}
-
-#contact-form h1 {
-    font-size:42px;
 }
 
 #contact-form h2 {
@@ -2391,15 +2393,15 @@
 #contact-form textarea,
 #contact-form label {
     font-size:15px;
-    margin-bottom:2px;
+    margin-bottom:4px;
 }
 
 #contact-form input,
 #contact-form select,
 #contact-form textarea {
-    width:450px;
+
     border: 1px solid #CEE1E8;
-    margin-bottom:20px;
+    margin-bottom:15px;
     padding:4px;
 }
 
@@ -2424,86 +2426,18 @@
     color:#F00;
 }
 
-#contact-form #submit-button {
-    width: 100px;
-    background-color:#333;
-    color:#FFF;
-    border:none;
-    display:block;
-    float:right;
-    margin-bottom:0px;
-    margin-right:6px;
-    background-color:#8FB5C1;
-    -moz-border-radius:8px;
+#contact-form div {
+	padding-top: 10px;
+	padding-bottom: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0;
 }
 
-#contact-form #submit-button:hover {
-    background-color: #A6CFDD;
-}
 
-#contact-form #submit-button:active {
-    position:relative;
-    top:1px;
-}
 
-#contact-form #loading {
-    width:32px;
-    height:32px;
-    background-image:url(../img/loading.gif);
-    display:block;
-    position:absolute;
-    right:130px;
-    bottom:16px;
-    display:none;
-}
 
-#errors {
-    border:solid 1px #E58E8E;
-    padding:10px;
-    margin:25px 0px;
-    display:block;
-    width:437px;
-    -webkit-border-radius:8px;
-    -moz-border-radius:8px;
-    border-radius:8px;
-    background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
-    display:none;
-}
 
-#errors li {
-    padding:2px;
-    list-style:none;
-}
-
-#errors li:before {
-    content: ' - ';
-}
-
-#errors #info {
-    font-weight:bold;
-}
-
-#errors #info:before {
-    content: '';
-}
-
-#success {
-    border:solid 1px #83D186;
-    padding:25px 10px;
-    margin:25px 0px;
-    display:block;
-    width:437px;
-    -webkit-border-radius:8px;
-    -moz-border-radius:8px;
-    border-radius:8px;
-    background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
-    font-weight:bold;
-    display:none;
-}
-
-#errors.visible, #success.visible {
-    display:block;
-}
 
 #req-field-desc {
     font-style:italic;
@@ -2536,3 +2470,6 @@ input.placeholder-text, textarea.placeholder-text  {
     color:#CCC;
     font-style:italic;
 }
+
+div.leftDownload{width:52px;float:left}
+div.rightDownload{margin-left:55px;padding-left:6px}
