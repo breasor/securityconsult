@@ -1,23 +1,16 @@
 ---
-layout: right-sidebar
+layout: service
 title: Environmental Protection
+byline:
+category: home-security
+image: images/emotionheader_8.jpg
+tags: ['alarm', 'monitoring', 'backup', 'central station', 'cellular backup', 'voip']
 ---
 
 
-<article>
-  <header class="major">
-    <h2>Fire alarm systems for your home</h2>
-    <p>Protect your home in case of fire</p>
-  </header>
 
-  <span class="image featured"><img src="{{ site.baseurl }}/images/emotionheader_8.jpg" alt="" /></span>
+Security Consult, Inc has the environmental protection solutions you need to safeguard your business from the risks of fire, flooding and carbon monoxide. When you implement these into your security system, you can receive text or email alerts whenever dangerous environmental conditions are present on your commercial property. In the event of fire or carbon monoxide, our monitoring center will also be alerted so that help will be on its way.
 
-  <p>There are few things more devastating than a house fire, as it can mean the loss of priceless possessions. That’s why Security Consult, Inc designs and installs custom fire alarm systems for all types of residential applications.
-  </p>
+We can also incorporate temperature sensors so that when the temperature rises above or falls below the threshold you program your system for, you will receive a notification and can tend to the matter immediately. This is especially important for businesses that require specific temperature ranges to protect inventory, such as food service establishments.
 
-
-  <p>Our fire alarm systems go beyond just smoke or fire detection; they can include the additional detection of carbon monoxide (CO) and other gases, extreme high and/or low temperatures, and the monitoring of sprinkler and other fire suppression systems. We can also help you re-activate a non-functioning system, and bring it up to date with North Carolina fire code.</p>
-
-  <p>Please note, your fire alarm must be connected to our monitoring center so that the fire department can immediately be made aware of a house fire if it occurs. If you would like to discuss our residential fire alarm systems and fire alarm monitoring service, contact Security Consult, Inc today.</p>
-
-</article>
+If you are interested in any of these environmental protection options for your business, contact Security Consult, Inc today. We will be glad to answer your questions
