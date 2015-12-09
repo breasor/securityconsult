@@ -18,7 +18,7 @@ layout: default
             </header>
             <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
 
-            <p><strong>{{page.title}} says: </strong>{{ page.excerpt }} </p>
+            <p><strong>{{page.title}} says: </strong>{{ page.content }} </p>
             {% unless page.description contains "Google " %}
               <ul>
                 <li><strong>Overall Score:</strong> {% assign count=page.score %}{% for num in (1..count) %}<span class="icon fa-star">{% endfor %}</li>
