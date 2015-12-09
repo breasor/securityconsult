@@ -1,7 +1,7 @@
 ---
 layout: service
 title: Insurance Fraud
-byline: NO PHONE LINE? WE CAN HELP!
+byline: 
 category: home-security
 image: images/emotionheader_8.jpg
 tags: ['cellular', 'voip', 'backup', 'security', 'cellular backup', 'lte']
