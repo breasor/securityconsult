@@ -1,21 +1,23 @@
 ---
-layout: service
+layout: right-sidebar
 title: Alarm Monitoring & Cell Backup
-byline:
-category: home-security
-image: images/emotionheader_8.jpg
-tags: ['alarm', 'monitoring', 'backup', 'central station', 'cellular backup', 'voip']
 ---
 
 
-Thinking of using VoIP phone service, or maybe using cell phones exclusively? Maybe you’re looking to secure a building that does not even have a phone line at all. All of these options are no problem with Complete Security Systems.
+<article>
+  <header class="major">
+    <h2>Fire alarm systems for your home</h2>
+    <p>Protect your home in case of fire</p>
+  </header>
 
-We have systems that do not require a phone line or any other wired communication channel to transmit signals between the customer's control panel and the Security Consult, Inc Central Monitoring Center.
+  <span class="image featured"><img src="{{ site.baseurl }}/images/emotionheader_8.jpg" alt="" /></span>
 
-Even if a phone line is cut during a break-in, signals can be sent to the Monitoring Center for alarm verification and if necessary, police or fire department dispatch. This also provides our customers flexibility on what type of phone service they use. It would not apply to a traditional system relying on phone lines.
+  <p>There are few things more devastating than a house fire, as it can mean the loss of priceless possessions. That’s why Security Consult, Inc designs and installs custom fire alarm systems for all types of residential applications.
+  </p>
 
-If you are going to pay for a security system, you should require one that is designed to work when you need it most. Unlike prior generations of security systems, we have systems that can ...
 
-* Function if the phone line is cut
-* Function if the power is out
-* Offer online system management
+  <p>Our fire alarm systems go beyond just smoke or fire detection; they can include the additional detection of carbon monoxide (CO) and other gases, extreme high and/or low temperatures, and the monitoring of sprinkler and other fire suppression systems. We can also help you re-activate a non-functioning system, and bring it up to date with North Carolina fire code.</p>
+
+  <p>Please note, your fire alarm must be connected to our monitoring center so that the fire department can immediately be made aware of a house fire if it occurs. If you would like to discuss our residential fire alarm systems and fire alarm monitoring service, contact Security Consult, Inc today.</p>
+
+</article>

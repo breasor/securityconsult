@@ -1,19 +1,23 @@
 ---
-layout: service
+layout: right-sidebar
 title: Fire Alarm Systems
-byline:
-category: home-security
-image: images/emotionheader_8.jpg
-tags: ['alarm', 'monitoring', 'backup', 'central station', 'cellular backup', 'voip']
 ---
 
 
-There are few things more devastating than a fire. To a business, it can mean a loss of income. And in your home, it can mean the loss of priceless possessions. That's why Security Consult, Inc designs and installs custom fire alarm systems for all types of applications.
+<article>
+  <header class="major">
+    <h2>Fire alarm systems for your home</h2>
+    <p>Protect your home in case of fire</p>
+  </header>
 
-Our systems go beyond just smoke or fire detection—they can include detection of Carbon Monoxide (CO) and other gases, extreme high and/or low temperatures, and the monitoring of sprinkler and other fire suppression systems. We can also help you re-activate a non-functioning system, all in compliance with your local and state fire codes. Learn more about our Fire Alarm Inspection Service.
+  <span class="image featured"><img src="{{ site.baseurl }}/images/emotionheader_8.jpg" alt="" /></span>
 
-# FIRE ALARM INSPECTIONS
+  <p>There are few things more devastating than a house fire, as it can mean the loss of priceless possessions. That’s why Security Consult, Inc designs and installs custom fire alarm systems for all types of residential applications.
+  </p>
 
-Our Fire Alarm Inspection division inspects, tests and services Automatic Fire Alarm Systems. Our field technicians are certified by the N.T.S. and completed training by the National Fire Protection Association (N.F.P.A.). Inspections include testing, cleaning and labelling of all associated devices.
 
-We then give you a complete and thorough report to provide to your municipal inspectors based on N.F.P.A. guidelines.
+  <p>Our fire alarm systems go beyond just smoke or fire detection; they can include the additional detection of carbon monoxide (CO) and other gases, extreme high and/or low temperatures, and the monitoring of sprinkler and other fire suppression systems. We can also help you re-activate a non-functioning system, and bring it up to date with North Carolina fire code.</p>
+
+  <p>Please note, your fire alarm must be connected to our monitoring center so that the fire department can immediately be made aware of a house fire if it occurs. If you would like to discuss our residential fire alarm systems and fire alarm monitoring service, contact Security Consult, Inc today.</p>
+
+</article>

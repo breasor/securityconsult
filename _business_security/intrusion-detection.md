@@ -1,15 +1,23 @@
 ---
-layout: service
+layout: right-sidebar
 title: Intrusion Detection
-byline:
-category: home-security
-image: images/emotionheader_8.jpg
-tags: ['alarm', 'monitoring', 'backup', 'central station', 'cellular backup', 'voip']
 ---
 
 
-When it comes to securing your commercial property, Security Consult, Inc can design an electronic security system that provides piece of mind at a price you can afford. With a wide array of products at our disposal, we can design a system that fits your needs and budget, using either conventional hard wired and/or wireless technology.
+<article>
+  <header class="major">
+    <h2>Fire alarm systems for your home</h2>
+    <p>Protect your home in case of fire</p>
+  </header>
 
-Systems range from contacting doors and windows to complete area protection, indoors and out. Our innovative design process lets us build systems for specific commercial security needs, such as protecting high value inventory, equipment and cash reserves.  Whatever your business’s security needs are, we can and will accommodate them so that the entire property is secure. Security Consult, Inc can also provide access control solutions for commercial properties large and small. These systems allow authorized individuals to gain entry into protected areas without the use of mechanical locks or keys.
+  <span class="image featured"><img src="{{ site.baseurl }}/images/emotionheader_8.jpg" alt="" /></span>
 
-Whether you are interested in alarms, cameras, access control, automated gates or a completely integrated system that includes a combination of these features, contact Security Consult, Inc to see what we can do for you.
+  <p>There are few things more devastating than a house fire, as it can mean the loss of priceless possessions. That’s why Security Consult, Inc designs and installs custom fire alarm systems for all types of residential applications.
+  </p>
+
+
+  <p>Our fire alarm systems go beyond just smoke or fire detection; they can include the additional detection of carbon monoxide (CO) and other gases, extreme high and/or low temperatures, and the monitoring of sprinkler and other fire suppression systems. We can also help you re-activate a non-functioning system, and bring it up to date with North Carolina fire code.</p>
+
+  <p>Please note, your fire alarm must be connected to our monitoring center so that the fire department can immediately be made aware of a house fire if it occurs. If you would like to discuss our residential fire alarm systems and fire alarm monitoring service, contact Security Consult, Inc today.</p>
+
+</article>

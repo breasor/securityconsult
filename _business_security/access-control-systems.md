@@ -1,14 +1,23 @@
 ---
-layout: service
+layout: right-sidebar
 title: Access Control Systems
-byline:
-category: home-security
-image: images/emotionheader_8.jpg
-tags: ['alarm', 'monitoring', 'backup', 'central station', 'cellular backup', 'voip']
 ---
 
-Security Consult, Inc can prepare a customized, Internet protocol (IP) video security solution for your business. Your new camera system can record activity on your property when it happens, so that you can view the footage via a secure Internet connection and use it as critical evidence when necessary. Of course, your cameras can also act as deterrence to theft and other unwanted behaviors, so that potential criminals may not act in the first place.
 
-Many times, we are asked to provide businesses with a hybrid video surveillance solution. For example, you may wish for us to convert your existing analog camera system to an IP solution, so that your older cameras can be compatible with Internet video viewing.
+<article>
+  <header class="major">
+    <h2>Fire alarm systems for your home</h2>
+    <p>Protect your home in case of fire</p>
+  </header>
 
-Security Consult, Inc has installed over 100 video surveillance systems for large commercial facilities, and numerous security camera systems for small to mid-sized businesses. For more information, contact Security Consult, Inc to request a video surveillance consultation for your business.
+  <span class="image featured"><img src="{{ site.baseurl }}/images/emotionheader_8.jpg" alt="" /></span>
+
+  <p>There are few things more devastating than a house fire, as it can mean the loss of priceless possessions. That’s why Security Consult, Inc designs and installs custom fire alarm systems for all types of residential applications.
+  </p>
+
+
+  <p>Our fire alarm systems go beyond just smoke or fire detection; they can include the additional detection of carbon monoxide (CO) and other gases, extreme high and/or low temperatures, and the monitoring of sprinkler and other fire suppression systems. We can also help you re-activate a non-functioning system, and bring it up to date with North Carolina fire code.</p>
+
+  <p>Please note, your fire alarm must be connected to our monitoring center so that the fire department can immediately be made aware of a house fire if it occurs. If you would like to discuss our residential fire alarm systems and fire alarm monitoring service, contact Security Consult, Inc today.</p>
+
+</article>
