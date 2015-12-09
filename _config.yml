@@ -20,7 +20,7 @@ baseurl: "/securityconsult" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
-
+highlighter: rouge
 
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
