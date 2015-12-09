@@ -9,18 +9,24 @@ layout: default
       <div id="content" >
 
         <!-- Content -->
-          {% for review in site.data.testimonials %}
+          {% assign sorted = (site.testimonials | sort: "date") | reverse %}
+          {% for page in sorted %}
           <article>
             <header class="major">
-              <h4>{{ review.project }}</h4>
-             {{review.date}}<br />
-
+              <h2>{{ page.description }}</h2>
+              {{page.date | date: '%B %d, %Y'}} in {{ page.location }}</br>
             </header>
             <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
 
-            <p>
-             <strong>{{ review.reviewer }}</strong> from {{ review.location }} says: {{ review.comments }}
-             </p>
+            <p><strong>{{page.title}} says: </strong>{{ page.excerpt }} </p>
+            {% unless page.description contains "Google " %}
+              <ul>
+                <li><strong>Overall Score:</strong> {% assign count=page.score %}{% for num in (1..count) %}<span class="icon fa-star">{% endfor %}</li>
+                <li><strong>Quality:</strong> {% assign count=page.quality %}{% for num in (1..count) %}<span class="icon fa-star">{% endfor %}</li>
+                <li><strong>Value for Money:</strong> {% assign count=page.value %}{% for num in (1..count) %}<span class="icon fa-star">{% endfor %}</li>
+                <li><strong>Customer Service:</strong> {% assign count=page.customerservice %}{% for num in (1..count) %}<span class="icon fa-star">{% endfor %}</li>
+              </ul>
+            {% endunless %}
           </article>
           {% endfor %}
         </div>

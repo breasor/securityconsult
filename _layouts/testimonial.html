@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+
+<div class="wrapper style2">
+  <div class="inner">
+    <div class="container">
+      <div id="content" >
+
+        <!-- Content -->
+
+          <article>
+            <header class="major">
+              <h2>{{ page.description }}</h2>
+
+            </header>
+            <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
+            <p><strong>On {{page.date | date: '%B %d, %Y'}} in {{ page.location }}</h4>
+            {{page.title}} said: </strong></p>
+            <p>{{ content }} </p>
+            {% unless page.description contains "Google " %}
+                          <ul>
+                            <li><strong>Overall Score:</strong> {% assign count=page.score %}{% for num in (1..count) %}<span class="icon fa-star">{% endfor %}</li>
+                            <li><strong>Quality:</strong> {% assign count=page.quality %}{% for num in (1..count) %}<span class="icon fa-star">{% endfor %}</li>
+                            <li><strong>Value for Money:</strong> {% assign count=page.value %}{% for num in (1..count) %}<span class="icon fa-star">{% endfor %}</li>
+                            <li><strong>Customer Service:</strong> {% assign count=page.customerservice %}{% for num in (1..count) %}<span class="icon fa-star">{% endfor %}</li>
+                      </ul>
+            {% endunless %}
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>

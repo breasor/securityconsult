@@ -42,6 +42,8 @@ collections:
     permalink: /investigations/:path/
   manuals:
     output: true
+  testimonials:
+    output: true
 
 
 
