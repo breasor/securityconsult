@@ -15,7 +15,7 @@ about: > # this means to ignore newlines until "baseurl:"
   It's <a href="http://html5up.net/license/">Creative Commons Attribution</a> licensed so use it for any personal or commercial project (just credit us for the design!).</p>
   <a href="#" class="button alt icon fa-arrow-circle-right">Learn More</a>
 baseurl: "/securityconsult" # the subpath of your site, e.g. /blog
-#keywords: ['private investigator', 'alarm installer' 'home security', 'honeywell', 'GE', 'DSC', 'Ademco', 'home security systems', 'home security system', 'wireless home security system', 'home security camera', 'wireless home security', 'home security alarms', 'home theater', 'charlotte', 'alarm system', 'police priority', 'personal protection', 'burglary systems']
+keywords: "alarm installation, private investigator, alarm installer, home security, honeywell, GE, DSC, Ademco, home security systems, home security system, wireless home security system, home security camera, wireless home security, home security alarms, home theater, charlotte, alarm system, police priority, personal protection, burglary systems"
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
@@ -60,46 +60,4 @@ dropdown:
   - title: Magna phasellus
     url: \#
   - title: Veroeros feugiat
-    url: \#
-
-filler:
-  - title: Burglar Alarm Systems
-    url: /burglar-alarms/
-  - title: Cellular Backup
-    url: /cellular-backup/
-  - title: Fire Alarm Systems
-    url: /fire-alarm-systems/
-  - title: Home Alarm Monitoring
-    url: /home-alarm-monitoring/
-  - title: Home Camera Systems
-    url: /home-camera-systems/
-  - title: Smoke Alarm Systems
-    url: /smoke-alarm-systems/
-  - title: Transfer you monitoring
-    url: /transfer-your-monitoring/
-
-
-even-more-filler:
-  - title: Domestic Infidelity
-    url: \#
-  - title: Child Custody/Visitation
-    url: \#
-  - title: Insurance Fraud
-    url: \#
-
-
-more-filler:
-  - title: Access Control Systems
-    url: \#
-  - title: Alarm Monitoring & Cell Back UP
-    url: \#
-  - title: Environmental Protection
-    url: \#
-  - title: Fire Alarm Systems
-    url: \#
-  - title: Intrusion Detection
-    url: \#
-  - title: IP Video Surveillance
-    url: \#
-  - title: Transfer your monitoring
     url: \#
