@@ -1,14 +1,24 @@
 ---
-layout: service
+layout: right-sidebar
 title: Smoke Alarm Systems
-byline: SMOKE DETECTOR & ALARM MONITORING FOR YOUR HOME
 category: home-security
-image: images/emotionheader_8.jpg
-tags: ['alarm', 'monitoring', 'backup', 'central station', 'cellular backup', 'voip']
 ---
 
-Security Consult, Inc carries low voltage, addressable smoke detectors that are ideal for all types of homes. Chances are, your home already has 110 smoke alarms installed. That’s good, but remember: 110 smoke alarms don’t summon the fire department.
 
-Unless your smoke alarms are addressable (able to be connected to our central station), they will not trigger the fire department in the event of a fire – and no, your existing smoke alarms cannot be made addressable. Ask Security Consult, Inc about a addressable smoke detector that will connect to the central station, so you can have the peace of mind you need.
+<article>
+  <header class="major">
+    <h2>Fire alarm systems for your home</h2>
+    <p>Protect your home in case of fire</p>
+  </header>
 
-We install all fire alarms to New Jersey state codes, so you can have the appropriate number of smoke alarms in the home. If you would like to speak to us about our residential smoke alarms, contact Security Consult, Inc today. We look forward to helping you.
+  <span class="image featured"><img src="{{ site.baseurl }}/images/emotionheader_8.jpg" alt="" /></span>
+
+  <p>There are few things more devastating than a house fire, as it can mean the loss of priceless possessions. That’s why Security Consult, Inc designs and installs custom fire alarm systems for all types of residential applications.
+  </p>
+
+
+  <p>Our fire alarm systems go beyond just smoke or fire detection; they can include the additional detection of carbon monoxide (CO) and other gases, extreme high and/or low temperatures, and the monitoring of sprinkler and other fire suppression systems. We can also help you re-activate a non-functioning system, and bring it up to date with North Carolina fire code.</p>
+
+  <p>Please note, your fire alarm must be connected to our monitoring center so that the fire department can immediately be made aware of a house fire if it occurs. If you would like to discuss our residential fire alarm systems and fire alarm monitoring service, contact Security Consult, Inc today.</p>
+
+</article>

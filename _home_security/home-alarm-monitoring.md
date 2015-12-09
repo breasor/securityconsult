@@ -1,15 +1,24 @@
 ---
-layout: service
+layout: right-sidebar
 title: Alarm Monitoring
-byline:
 category: home-security
-image: images/emotionheader_8.jpg
-tags: ['alarm', 'monitoring', 'backup', 'central station', 'cellular backup', 'voip']
 ---
 
 
-# Your security system will only summon help if it is monitored by a UL listed central station.
+<article>
+  <header class="major">
+    <h2>Fire alarm systems for your home</h2>
+    <p>Protect your home in case of fire</p>
+  </header>
 
-Security Consult, Inc can implement a wide variety of monitoring resources to accommodate your particular security needs. We typically use a standard telephone line to provide digital communication between your alarm panel and the central station. Communication may also be established through the use of a primary or secondary, or back-up, radio transmitter or other wireless service.
+  <span class="image featured"><img src="{{ site.baseurl }}/images/emotionheader_8.jpg" alt="" /></span>
 
-Additionally, we provide other monitoring products including Two-Way Voice, which allows hands-free communication between the alarm dispatcher and your premise; and Internet Monitoring, which enables your security system to communicate with the Central Station via the Internet and a broadband connection.
+  <p>There are few things more devastating than a house fire, as it can mean the loss of priceless possessions. That’s why Security Consult, Inc designs and installs custom fire alarm systems for all types of residential applications.
+  </p>
+
+
+  <p>Our fire alarm systems go beyond just smoke or fire detection; they can include the additional detection of carbon monoxide (CO) and other gases, extreme high and/or low temperatures, and the monitoring of sprinkler and other fire suppression systems. We can also help you re-activate a non-functioning system, and bring it up to date with North Carolina fire code.</p>
+
+  <p>Please note, your fire alarm must be connected to our monitoring center so that the fire department can immediately be made aware of a house fire if it occurs. If you would like to discuss our residential fire alarm systems and fire alarm monitoring service, contact Security Consult, Inc today.</p>
+
+</article>

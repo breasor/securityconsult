@@ -1,15 +1,24 @@
 ---
-layout: service
-title: Home Camera Systems
-byline:
-category: home-security
-image: images/emotionheader_8.jpg
-tags: ['alarm', 'monitoring', 'backup', 'central station', 'cellular backup', 'voip']
+layout: right-sidebar
+title: Security Camera Systems
+
 ---
 
 
-Security Consult, Inc offers a variety of security camera system options for homeowners. Whether you choose a hard wired camera system that offers easy DVR playback, or a remote home monitoring system with wireless cameras like Total Connect from Honey well, there is a security camera solution for every home.
+<article>
+  <header class="major">
+    <h2>Fire alarm systems for your home</h2>
+    <p>Protect your home in case of fire</p>
+  </header>
 
-Our DVR playback option is powered by Digital Watchdog, one of the most trusted names in video security. As for Total Connect, it’s an event-driven service that offers you the opportunity to view live clips of events captured on your cameras. Best of all, you can view these from the convenience of your computer, smartphone or tablet. Total Connect is home security on the go, and it’s one of the most popular home security services offered today because it also allows you to control your home’s lights, locks and thermostat from your device. 
+  <span class="image featured"><img src="{{ site.baseurl }}/images/emotionheader_8.jpg" alt="" /></span>
 
-If you are interested in home security camera systems, contact Security Consult, Inc to request more information. We will be glad to customize a video security solution for your home.
+  <p>There are few things more devastating than a house fire, as it can mean the loss of priceless possessions. That’s why Security Consult, Inc designs and installs custom fire alarm systems for all types of residential applications.
+  </p>
+
+
+  <p>Our fire alarm systems go beyond just smoke or fire detection; they can include the additional detection of carbon monoxide (CO) and other gases, extreme high and/or low temperatures, and the monitoring of sprinkler and other fire suppression systems. We can also help you re-activate a non-functioning system, and bring it up to date with North Carolina fire code.</p>
+
+  <p>Please note, your fire alarm must be connected to our monitoring center so that the fire department can immediately be made aware of a house fire if it occurs. If you would like to discuss our residential fire alarm systems and fire alarm monitoring service, contact Security Consult, Inc today.</p>
+
+</article>
