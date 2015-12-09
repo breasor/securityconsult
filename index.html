@@ -23,6 +23,7 @@ title: Home
             <section>
               <a href="{{ site.baseurl }}/business-security/" class="image featured"><img class="featured small" src="images/officeworker.jpg" alt="" /></a>
               <header class="second icon fa-building">
+                <a href="/business-security" class="featured">
 								<h3>Business Security</h3>
                 <p>Protect your business</p>
 							</a>
@@ -40,7 +41,7 @@ title: Home
           </div>
           <div class="4u 12u(mobile)">
             <section>
-              <a href="{{site.baseurl}}/investigations/" class="image featured"><img src="images/investigative.png" alt="" /></a>
+              <a href="{{site.baseurl}}/investigative/" class="image featured"><img src="images/investigative.png" alt="" /></a>
               <header class="second icon fa-user">
                 <h3>Investigative Solutions</h3>
                 <p>Protect your life</p>
@@ -104,7 +105,7 @@ title: Home
             <!-- Article list -->
               <section class="box article-list">
                 <h2 class="icon fa-file-text-o">Recent Posts</h2>
-                {% for post in site.posts limit:3 %}
+                {% for post in site.posts limit:4 %}
 									{% if post.category == "blog" %}
                   <!-- Excerpt -->
                   <article class="box excerpt">
