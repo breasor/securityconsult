@@ -135,14 +135,14 @@ title: Home
 									{% for node in sorted | limit: 1 %}
 
 				            <header class="major">
-				              <h4>{{ node.descriptionx }}</h4>
+				              <h4>{{ node.description }}</h4>
 				             {{node.date | date: '%B %d, %Y'}}<br />
 
 				            </header>
 				            <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
 
 				            <p>
-				             <strong>{{ node.title }}</strong> from {{ node.location }} says: {{ node.excerpt }}
+				             <strong>{{ node.title }}</strong> from {{ node.location }} says: {{ node.content }}
 				             </p>
 
 										{% endfor %}
