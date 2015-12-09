@@ -142,7 +142,7 @@ title: Home
 				            <!-- <span class="image featured" itemprop="articleBody"><img src="images/pic08.jpg" alt="" /></span> -->
 
 				            <p>
-				             <strong>{{ node.title }}</strong> from {{ node.location }} says: {{ node.content }}
+				             <strong>{{ node.title }}</strong> from {{ node.location }} says: {{ node.content | strip_html | truncatewords: 50 }}
 				             </p>
 
 										{% endfor %}

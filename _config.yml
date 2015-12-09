@@ -20,7 +20,7 @@ keywords: "alarm installation, private investigator, alarm installer, home secur
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
 
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
