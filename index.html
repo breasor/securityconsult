@@ -133,9 +133,9 @@ title: Home
                   <a href="#" class="image featured"><img src="images/testimonials.jpg" alt=""></a>
 									{% assign sorted = (site.testimonials | sort: "date") | reverse %}
 									{% for node in sorted | limit: 1 %}
-									
+
 				            <header class="major">
-				              <h4>{{ node.description }}</h4>
+				              <h4>{{ node.descriptionx }}</h4>
 				             {{node.date | date: '%B %d, %Y'}}<br />
 
 				            </header>
