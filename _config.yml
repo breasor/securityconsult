@@ -8,17 +8,43 @@
 # Site settings
 title: Security Consult
 description: >
-  A responsive HTML5 site template. Manufactured by HTML5 UP. Jekylled by @breasor
+  Security Consult, NC, Security Consult and Investigations is a Charlotte, North Carolina based security consulting and private investigative service
 about: > # this means to ignore newlines until "baseurl:"
   <h2><strong>ZeroFour</strong> by HTML5 UP</h2>
   <p>Hi! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site template by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
   It's <a href="http://html5up.net/license/">Creative Commons Attribution</a> licensed so use it for any personal or commercial project (just credit us for the design!).</p>
   <a href="#" class="button alt icon fa-arrow-circle-right">Learn More</a>
 baseurl: "/securityconsult" # the subpath of your site, e.g. /blog
+keywords: ['private investigator', 'alarm installer' 'home security', 'honeywell', 'GE', 'DSC', 'Ademco', 'home security systems', 'home security system', 'wireless home security system', 'home security camera', 'wireless home security', 'home security alarms', 'home theater', 'charlotte', 'alarm system', 'police priority', 'personal protection', 'burglary systems']
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+collections:
+  home_security:
+    output: true
+    permalink: /home-security/:path/
+  business_security:
+    output: true
+    permalink: /business-security/:path/
+  investigations:
+    output: true
+    permalink: /investigations/:path/
+  manuals:
+    output: true
+
+
+
 header-links:
   - title: Home
     url: /
