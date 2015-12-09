@@ -20,7 +20,7 @@ keywords: ['private investigator', 'alarm installer' 'home security', 'honeywell
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+
 
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
