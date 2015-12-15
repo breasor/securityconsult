@@ -1,5 +1,5 @@
 ---
-layout: right-sidebar
+layout: about
 title: About
 permalink: /about-us/
 ---

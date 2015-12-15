@@ -2471,5 +2471,11 @@ input.placeholder-text, textarea.placeholder-text  {
     font-style:italic;
 }
 
-div.leftDownload{width:52px;float:left}
-div.rightDownload{margin-left:55px;padding-left:6px}
+span,div.leftDownload{width:52px;float:left}
+span,div.rightDownload{margin-left:55px;padding-left:6px}
+
+
+.slide {
+	width:auto!important;
+	margin-right:52px!important
+}
