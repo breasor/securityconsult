@@ -1724,13 +1724,13 @@
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg02.png"), url("../../images/charlotte_header.jpg");
+		background: url("images/bg02.png"), url("../../images/charlotte_headerx.jpg");
 		background-position: top left, center center;
 		background-size: auto, cover;
 	}
 
 	#main-wrapper {
-		background: #fff;
+		background: #dfe5e8;
 	}
 
 	#footer-wrapper {
