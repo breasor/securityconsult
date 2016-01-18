@@ -3,10 +3,19 @@
     <div class="container">
 
       <!-- Header -->
-        <header id="header">
+        <header id="header" >
+          <div class="logo banner">
+            <div class="row uniform">
+              <div class="6u 12u(mobile)"><a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl}}/images/logo.jpg" alt="{{ site.title }}" class="image block" /></a></div>
+              <div class="6u 12u(mobile)">
+                <div class="logo-contact"><h2 class="icon fa-phone">Call us at {{ site.data.contact.phone }}</h2>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="inner">
 
-            <h1>  <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl}}/images/logo.jpg" alt="{{ site.title }}" class="image block"/></a></h1>
+
             <nav id="nav">
               <ul>
 <!--

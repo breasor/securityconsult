@@ -2479,3 +2479,11 @@ span,div.rightDownload{margin-left:55px;padding-left:6px}
 	width:auto!important;
 	margin-right:52px!important
 }
+.logo {
+	position: relative;
+}
+.logo-contact {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
